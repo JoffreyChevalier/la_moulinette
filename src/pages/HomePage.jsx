@@ -1,7 +1,11 @@
+import React from "react";
+
+import Dva from "../components/Dva";
+
 function HomePage() {
   return (
     <div>
-      <p>coucou</p>
+      <Dva />
     </div>
   );
 }
