@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
+    <div className="bg-primary/40">
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
