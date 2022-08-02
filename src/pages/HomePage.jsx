@@ -1,7 +1,14 @@
+import React from "react";
+
+import Dva from "../components/Dva";
+import GeneralCard from "../components/GeneralCard";
+
 function HomePage() {
   return (
     <div>
-      <p>coucou</p>
+      <GeneralCard>
+        <Dva />
+      </GeneralCard>
     </div>
   );
 }
